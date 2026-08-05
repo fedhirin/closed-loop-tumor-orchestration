@@ -1,0 +1,59 @@
+seed: 17
+data:
+  ct_patch: [96, 96, 96]
+  image_tokens: 196
+  gene_expression_features: 1536
+  mutation_features: 468
+  genomic_tokens: 330
+  ehr_features: 87
+  ehr_tokens: 64
+  drug_fingerprint_features: 2048
+  pharmacology_tokens: 32
+  maximum_cycles: 6
+model:
+  dimension: 512
+  heads: 8
+  ctiga_layers: 4
+  genomic_layers: 6
+  pharmacology_layers: 4
+  temporal_layers: 4
+  memory_dimension: 128
+  actions: 12
+  toxicity_labels: 8
+  dropout: 0.1
+training:
+  supervised_epochs: 100
+  policy_episodes: 50
+  batch_size_per_device: 16
+  gradient_accumulation: 1
+  world_size: 4
+  effective_batch_size: 64
+  learning_rate: 0.0001
+  policy_learning_rate: 0.00003
+  weight_decay: 0.001
+  warmup_epochs: 5
+  early_stopping_patience: 15
+  precision: fp16
+  scheduler: cosine
+  optimizer: adamw
+  ppo_clip: 0.2
+  seeds: 20
+loss:
+  survival: 0.5
+  toxicity: 0.8
+  segmentation: 0.3
+  policy: 0.1
+  alignment: 0.2
+safety:
+  efficacy: 1.0
+  toxicity: 0.8
+  violation_penalty: 100.0
+  toxicity_threshold: 0.7
+  escalation_percentile: 90.0
+  monte_carlo_samples: 30
+evaluation:
+  folds: 5
+  validation_fraction: 0.1
+  bootstrap_iterations: 1000
+  bonferroni_comparisons: 28
+

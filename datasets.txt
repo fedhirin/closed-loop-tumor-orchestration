@@ -1,0 +1,9 @@
+NSCLC-Radiomics | https://www.cancerimagingarchive.net/collection/nsclc-radiomics/ | DOI 10.7937/K9/TCIA.2015.PF0M9REI | TCIA Data Usage Policy
+NSCLC-Radiogenomics | https://www.cancerimagingarchive.net/collection/nsclc-radiogenomics/ | DOI 10.7937/K9/TCIA.2017.7hs46erv | TCIA Data Usage Policy
+LIDC-IDRI | https://www.cancerimagingarchive.net/collection/lidc-idri/ | DOI 10.7937/K9/TCIA.2015.LO9QL9SX | TCIA Data Usage Policy
+TCGA-LUAD | https://portal.gdc.cancer.gov/projects/TCGA-LUAD | GDC open and controlled access tiers | NIH Genomic Data Sharing Policy
+TCGA-LUSC | https://portal.gdc.cancer.gov/projects/TCGA-LUSC | GDC open and controlled access tiers | NIH Genomic Data Sharing Policy
+GENIE BPC NSCLC 2.0 | https://genie.cbioportal.org/study/summary?id=nsclc_public_genie_bpc | cBioPortal and AACR Project GENIE terms of access
+MIMIC-IV 3.1 | https://physionet.org/content/mimiciv/3.1/ | credentialed access | PhysioNet Credentialed Health Data License 1.5.0
+DrugBank 5.1.16 | https://go.drugbank.com/releases/5-1-16 | academic downloads temporarily paused as of verification | CC BY-NC 4.0 for licensed academic datasets
+SEER November 2024 | https://seer.cancer.gov/data-software/documentation/seerstat/nov2024/ | agreement required | SEER Research Data Agreement
